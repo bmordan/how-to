@@ -32,3 +32,12 @@ If you like to make your limit permanent, use:
 `$ sudo sysctl -p`
 
 You may also need to pay attention to the values of max_queued_events and max_user_instances if Listen keeps on complaining.
+
+## node-gyp stops working
+
+After a MAC OS update.
+
+```
+sudo rm -rf  /Library/Developer/CommandLineTools
+xcode-select --install
+```
