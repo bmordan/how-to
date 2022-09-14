@@ -41,3 +41,9 @@ After a MAC OS update.
 sudo rm -rf  /Library/Developer/CommandLineTools
 xcode-select --install
 ```
+
+## Start Mongodb
+
+```
+sudo mongod --dbpath=/usr/local/var/mongodb
+```
